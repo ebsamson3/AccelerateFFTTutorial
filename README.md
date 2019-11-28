@@ -1,5 +1,9 @@
 # AccelerateFFTTutorial
-Supporting materials for a Swift tutorial on performing Fast Fourier Transforms using Apple's Accelerate Framework. The tutorial can be found [here](http://edwardsamson.com/using-a-swift-accelerate-implementation-of-the-fast-fourier-transform-to-calculate-linear-autocorrelation/)
+Supporting materials for a Swift tutorial on performing Fast Fourier Transforms using Apple's Accelerate Framework. 
+
+## Tutorial
+
+The tutorial can be found [on my personal website](http://edwardsamson.com/using-a-swift-accelerate-implementation-of-the-fast-fourier-transform-to-calculate-linear-autocorrelation/).
 
 ## Usage
 
