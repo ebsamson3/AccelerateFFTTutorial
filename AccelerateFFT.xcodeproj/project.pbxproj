@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BCE05B690628136C2E28FC8 /* Pods_AccelerateFFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C501CF0CE81D1E41526073 /* Pods_AccelerateFFT.framework */; };
 		5F47B80C238B19C2008A5F88 /* AccelerateFFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F47B80A238B19C2008A5F88 /* AccelerateFFT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23C501CF0CE81D1E41526073 /* Pods_AccelerateFFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccelerateFFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AB4EB4AC48DB278945A5AF /* Pods-AccelerateFFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccelerateFFT.release.xcconfig"; path = "Target Support Files/Pods-AccelerateFFT/Pods-AccelerateFFT.release.xcconfig"; sourceTree = "<group>"; };
 		5F47B807238B19C2008A5F88 /* AccelerateFFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AccelerateFFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F47B80A238B19C2008A5F88 /* AccelerateFFT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelerateFFT.h; sourceTree = "<group>"; };
 		5F47B80B238B19C2008A5F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F47C5EF238CA76C00D3D14E /* AccelerateFFT_Starter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccelerateFFT_Starter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5FF17D28238F100B0054A45F /* PitchDetection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PitchDetection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5FFFD87F238B1F2E00A4F9FF /* AccelerateFFT.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccelerateFFT.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FFB0FAC54E16688B3DCEF0A9 /* Pods-AccelerateFFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccelerateFFT.debug.xcconfig"; path = "Target Support Files/Pods-AccelerateFFT/Pods-AccelerateFFT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCE05B690628136C2E28FC8 /* Pods_AccelerateFFT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +38,13 @@
 		5F47B7FD238B19C2008A5F88 = {
 			isa = PBXGroup;
 			children = (
+				5F47C5EF238CA76C00D3D14E /* AccelerateFFT_Starter.playground */,
+				5FFFD87F238B1F2E00A4F9FF /* AccelerateFFT.playground */,
+				5FF17D28238F100B0054A45F /* PitchDetection.playground */,
 				5F47B809238B19C2008A5F88 /* AccelerateFFT */,
 				5F47B808238B19C2008A5F88 /* Products */,
+				901B7035B704B9F2465AB9F1 /* Pods */,
+				7AE5F4041586313F2C34A4B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +65,23 @@
 			path = AccelerateFFT;
 			sourceTree = "<group>";
 		};
+		7AE5F4041586313F2C34A4B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C501CF0CE81D1E41526073 /* Pods_AccelerateFFT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		901B7035B704B9F2465AB9F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0FAC54E16688B3DCEF0A9 /* Pods-AccelerateFFT.debug.xcconfig */,
+				25AB4EB4AC48DB278945A5AF /* Pods-AccelerateFFT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -70,6 +100,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F47B80F238B19C2008A5F88 /* Build configuration list for PBXNativeTarget "AccelerateFFT" */;
 			buildPhases = (
+				805EFE34165CC58E36EA4FF3 /* [CP] Check Pods Manifest.lock */,
 				5F47B802238B19C2008A5F88 /* Headers */,
 				5F47B803238B19C2008A5F88 /* Sources */,
 				5F47B804238B19C2008A5F88 /* Frameworks */,
@@ -125,6 +156,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		805EFE34165CC58E36EA4FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccelerateFFT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F47B803238B19C2008A5F88 /* Sources */ = {
@@ -259,6 +315,7 @@
 		};
 		5F47B810238B19C2008A5F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB0FAC54E16688B3DCEF0A9 /* Pods-AccelerateFFT.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -283,6 +340,7 @@
 		};
 		5F47B811238B19C2008A5F88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AB4EB4AC48DB278945A5AF /* Pods-AccelerateFFT.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
