@@ -3,7 +3,9 @@ Supporting materials for a Swift tutorial on performing Fast Fourier Transforms 
 
 ## Usage
 
-To use simply download/clone the repository and open AccelerateFFT.xcworkspace. In the workspace you will find the following playgrounds:
+To use simply download/clone the repository, open AccelerateFFT.xcworkspace, and build the project so that the playgrounds have access to the included Charts module. 
+
+In the workspace you will find the following playgrounds:
 
 - **AccelerateFFT_Starter.playground:** Use this to follow along with the tutorial
 - **AccelerateFFT.playground:** The end result of the tutorial
